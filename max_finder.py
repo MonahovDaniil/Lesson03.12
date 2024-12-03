@@ -1,12 +1,12 @@
-def find_max(numbers):
+def find_min(numbers):
   if not numbers:
     return None
   else:
-    return max(numbers)
+    return min(numbers)
   numbers = [float(x) for x in input_str.split()]
-  max_value = find_max(numbers)
-  if max_value is None:
+  min_value = find_min(numbers)
+  if min_value is None:
     print("The list is empty.")
   else:
-    print("The maximum value is:", max_value)
+    print("The minimum value is:", min_value)
 
